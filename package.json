@@ -15,7 +15,7 @@
     "gulp-sass": "^2.0.4",
     "gulp-webpack": "^1.5.0",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^3.1.11"
   },
   "devDependencies": {
     "@ionic/lab": "2.0.13",
