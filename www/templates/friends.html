@@ -1,0 +1,23 @@
+<ion-view view-title="Amigos">
+    <ion-floating-button click="vm.goCart()" button-color="#E65100" icon="ion-ios-cart"></ion-floating-button>
+    <ion-content>
+        <div class="content has-header">
+            <div class="list">
+                <a ng-repeat="friend in vm.friends" ui-sref="app.friends" class="item item-avatar item-icon-right">
+                    <img src="http://graph.facebook.com/{{friend.id}}/picture?width=170&height=170">
+                    <h2>{{friend.name}}</h2>
+                    <p>cervejeiro</p>
+                    <i class="icon ion-chatbubble muted"></i>
+                </a>
+            </div>
+            <!-- <div class="list">
+                <a ng-repeat="f in vm.friends" href="#/app/user-profile" class="item item-avatar item-icon-right">
+                    <img src="{{f.picture.data.url}}">
+                    <h2>{{f.name}}</h2>
+                    <p>cervejeiro</p>
+                    <i class="icon ion-chatbubble muted"></i>
+                </a>
+            </div> -->
+        </div>
+    </ion-content>
+</ion-view>

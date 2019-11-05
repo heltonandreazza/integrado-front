@@ -1,0 +1,14 @@
+{
+  "name": "myEcommerceFront",
+  "integrations": {},
+  "type": "angular",
+  "gulpStartupTasks": [
+    "webpack",
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
